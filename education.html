@@ -26,17 +26,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.css">
+  <script src="./assets/js/contact.js"></script>
+  <script src="./assets/js/newsletter.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- =======================================================
-  * Template Name: Mentor - v4.3.0
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body>
-
+  <div id="cover-spin"></div>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
@@ -142,9 +142,9 @@
         </div>
 
       </div>
-    </section><!-- End Events Section --> -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>End #main -->
 
    <!-- ======= Footer ======= -->
    <footer id="footer">
@@ -159,7 +159,7 @@
               Indore, Madhya Pradesh<br>
               India <br><br>
               <strong>Phone:</strong> +1 (778) 228-4458<br>
-              <strong>Email:</strong> navpreetkrgoraya@gmail.com<br>
+              <strong>Email:</strong> <a href="mailto:navpreetkrgoraya@gmail.com">navpreetkrgoraya@gmail.com</a><br>
             </p>
           </div>
 
@@ -182,12 +182,14 @@
             </ul>
           </div>
 
+
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <div class="newsletter">
+              <input type="email" id="newsletteremail" class="email_cls" name="email" placeholder="Email Address">
+              <input type="submit" value="Subscribe" class="email_btn" onclick="subscribe()">
+            </div>
           </div>
 
         </div>
