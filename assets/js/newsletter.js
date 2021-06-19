@@ -1,7 +1,7 @@
 function subscribe() {
 
     var newsletteremail = document.getElementById('newsletteremail').value;
-    var endpointurl = "https://script.google.com/macros/s/AKfycbyXYFw3kx1QuK6AULb64pBbzjE90X36P7BHw1buCHdiCoiM7_OeLtc3KtwO5Mf5jhAR/exec?func=addData&email=" + newsletteremail;
+    var endpointurl = "https://script.google.com/macros/s/AKfycbxmc5VOmPfaQGkUrQYpCe-_wkE5okdGeIfJBQH5cwSBsH-ULeEYAQ9d62jvsrLSlzUM/exec?func=addData&email=" + newsletteremail;
   
     var emailpatt = new RegExp(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
     if (navigator.onLine) {
