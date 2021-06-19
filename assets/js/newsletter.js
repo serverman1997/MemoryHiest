@@ -27,7 +27,7 @@ function subscribe() {
               Swal.fire({
                 type: 'success',
                 title: 'Newsletter Subscribed successfully!!! for ' + data.email,
-                text: 'All the latest content from E-YARD will be dropped directly to your inbox.',
+                text: 'All the latest content from Memory Heist will be dropped directly to your inbox.',
                 confirmButtonColor: '#ff5821'
               })
   
