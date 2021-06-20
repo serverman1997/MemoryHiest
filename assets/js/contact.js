@@ -10,7 +10,7 @@ function send() {
     var phonepatt = new RegExp(/^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/);
     var emailpatt = new RegExp(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
   
-    var endpointurl="https://script.google.com/macros/s/AKfycbw3CyPlQGs4llwvbyrqN9pIbS5spjI82aLiMA_T-Uu7JcChObIBhFjR9fVjdMkzjtKQoA/exec?func=addData&name="+name+"&phone="+phone+"&email="+email+"&msg="+message+"&subject="+subject;
+    var endpointurl="https://script.google.com/macros/s/AKfycbw3CyPlQGs4llwvbyrqN9pIbS5spjI82aLiMA_T-Uu7JcChObIBhFjR9fVjdMkzjtKQoA/exec?func=addData&name="+name+"&phone="+phone+"&email="+email+"&message="+message+"&subject="+subject;
   
   
     if (navigator.onLine) {
