@@ -7,3 +7,5 @@ Notification Service: sweetalert2 Popup
 Contact us form: Contact Service by wakeupcoders
 
 Newsletter form: Google Spreadsheet connected
+
+Price : 70 Rs 400 SSL and other
