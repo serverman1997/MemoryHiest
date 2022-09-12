@@ -32,7 +32,7 @@
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -88,7 +88,7 @@ body {
 }
 
 a {
-  color:#ff5821;
+  color:#7171da;
   text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background:#ff5821;
+  background:#7171da;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid#ff5821;
+  border: 6px solid#7171da;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -213,11 +213,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #ff5821;
+  color: #7171da;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 59px;
+  border-radius:15px; 
+  border:1px solid grey;
 }
 
 /**
@@ -225,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .get-started-btn {
   margin-left: 22px;
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -289,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ff5821;
+  color: #7171da;
 }
 
 .navbar .dropdown ul {
@@ -324,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .navbar .dropdown:hover > ul {
@@ -359,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ff5821;
+  color: #7171da;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -419,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .navbar-mobile .getstarted {
@@ -451,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -464,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://www.myperfectresume.com/wp-content/uploads/2020/05/describe-your-educational-background.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -519,8 +521,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background:#ff5821;
-  border: 2px solid#ff5821;
+  background:#7171da;
+  border: 2px solid#7171da;
 }
 
 @media (min-width: 1024px) {
@@ -593,7 +595,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background:#ff5821;
+  background:#7171da;
   padding: 30px 0;
   color: #fff;
 }
@@ -634,11 +636,11 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color:#ff5821;
+  color:#7171da;
 }
 
 .about .content .learn-more-btn {
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -670,7 +672,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color:#ff5821;
+  color:#7171da;
   font-weight: 700;
 }
 
@@ -688,7 +690,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background:#ff5821;
+  background:#7171da;
   border-radius: 4px;
   color: #fff;
 }
@@ -717,7 +719,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color:#ff5821;
+  color:#7171da;
   background: #fff;
 }
 
@@ -732,7 +734,7 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color:#ff5821;
+  color:#7171da;
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -784,11 +786,11 @@ section {
 }
 
 .features .icon-box:hover {
-  border-color:#ff5821;
+  border-color:#7171da;
 }
 
 .features .icon-box:hover h3 a {
-  color:#ff5821;
+  color:#7171da;
 }
 
 /*--------------------------------------------------------------
@@ -814,7 +816,7 @@ section {
 }
 
 .courses .course-content h3 a:hover {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .courses .course-content p {
@@ -824,7 +826,7 @@ section {
 
 .courses .course-content h4 {
   font-size: 14px;
-  background:#ff5821;
+  background:#7171da;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -906,7 +908,7 @@ section {
 }
 
 .trainers .member .social a:hover {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .trainers .member .social i {
@@ -985,11 +987,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid#ff5821;
+  border: 1px solid#7171da;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:#ff5821;
+  background-color:#7171da;
 }
 
 @media (max-width: 767px) {
@@ -1034,7 +1036,7 @@ section {
   display: block;
   width: 60px;
   height: 1px;
-  background:#ff5821;
+  background:#7171da;
   bottom: 0;
   left: 0;
 }
@@ -1085,12 +1087,12 @@ section {
 }
 
 .cource-details-tabs .nav-link:hover {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .cource-details-tabs .nav-link.active {
-  color:#ff5821;
-  border-color:#ff5821;
+  color:#7171da;
+  border-color:#7171da;
 }
 
 .cource-details-tabs .tab-pane.active {
@@ -1120,7 +1122,7 @@ section {
   }
   .cource-details-tabs .nav-link.active {
     color: #fff;
-    background:#ff5821;
+    background:#7171da;
   }
 }
 
@@ -1181,7 +1183,7 @@ section {
 }
 
 .events .read-more a:hover {
-  color:#ff5821;
+  color:#7171da;
 }
 
 .events .card:hover img {
@@ -1189,11 +1191,11 @@ section {
 }
 
 .events .card:hover .card-body {
-  border-color:#ff5821;
+  border-color:#7171da;
 }
 
 .events .card:hover .card-body .card-title a {
-  color:#ff5821;
+  color:#7171da;
 }
 
 /*--------------------------------------------------------------
@@ -1221,7 +1223,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color:#ff5821;
+  color:#7171da;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1253,7 +1255,7 @@ section {
 }
 
 .pricing ul i {
-  color:#ff5821;
+  color:#7171da;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1271,7 +1273,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background:#ff5821;
+  background:#7171da;
   display: inline-block;
   padding: 8px 35px;
   border-radius: 50px;
@@ -1290,7 +1292,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background:#ff5821;
+  background:#7171da;
 }
 
 .pricing .advanced {
@@ -1302,7 +1304,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
 }
 
@@ -1320,7 +1322,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color:#ff5821;
+  color:#7171da;
   float: left;
   width: 44px;
   height: 44px;
@@ -1352,7 +1354,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
 }
 
@@ -1414,7 +1416,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color:#ff5821;
+  border-color:#7171da;
 }
 
 .contact .php-email-form input {
@@ -1426,7 +1428,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background:#ff5821;
+  background:#7171da;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1510,7 +1512,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color:#ff5821;
+  color:#7171da;
   font-size: 18px;
   line-height: 1;
 }
@@ -1534,7 +1536,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color:#ff5821;
+  color:#7171da;
 }
 
 #footer .footer-newsletter {
@@ -1574,7 +1576,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1596,13 +1598,13 @@ section {
 }
 
 #footer .credits a:hover {
-  color:#ff5821;
+  color:#7171da;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background:#ff5821;
+  background:#7171da;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
